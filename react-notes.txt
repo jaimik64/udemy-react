@@ -1,0 +1,25 @@
+Life Cycle method:
+Constructor 
+render
+
+
+
+[content visible on screen]
+componentDidMount
+USe : Initial Data Loading, only required one time to call the function
+
+
+[sit and wait for updates]
+componentDidUpdate
+Use: Component is updated for each reason. 
+
+[sit and wait until this component is not longer shown]
+componentWillUnmount
+Use : We're about to remove component, Good place to do cleanup
+
+
+
+Other Methods: 
+shouldComponentUpdate
+getDerivedStateFromProps
+getSnapshotBeforeUpdate
