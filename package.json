@@ -15,5 +15,8 @@
     "url": "https://github.com/jaimik64/udemy-react/issues"
   },
   "homepage": "https://github.com/jaimik64/udemy-react#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
