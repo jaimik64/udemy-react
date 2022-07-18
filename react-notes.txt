@@ -23,3 +23,11 @@ Other Methods:
 shouldComponentUpdate
 getDerivedStateFromProps
 getSnapshotBeforeUpdate
+
+
+
+Redux Cycle: 
+
+Actual:                     Action Creator              -> Action   -> Dispactch     -> Reducers    -> State
+
+According to Policy Cycle : Person dropping of the form -> the form -> form receiver -> Departments -> Compiled department date
