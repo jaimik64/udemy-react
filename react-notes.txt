@@ -31,3 +31,18 @@ Redux Cycle:
 Actual:                     Action Creator              -> Action   -> Dispactch     -> Reducers    -> State
 
 According to Policy Cycle : Person dropping of the form -> the form -> form receiver -> Departments -> Compiled department date
+
+
+General Data Loading With Redux  :
+
+1. Component gets rendered onto the screen
+2. Component's 'componentDidMount' lifecycle method gets called
+3. We call action Creator from 'componentDidMount'
+
+4. Action Creator runs code to make an API request
+5. API responds with Data
+6. Action Creator returns an 'action' with the fetched data on the 'payload' property
+
+7. Some reducers sees the action, returns the data off the 'payload'
+8. because we generated some new state object, redux/react-redux cause our React app to be rendered
+
